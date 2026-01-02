@@ -1,0 +1,27 @@
+saas-customer-insights/
+│
+├── README.md
+├── requirements.txt
+├── config.yaml
+│
+├── data/
+│   ├── raw/
+│   │   └── saas_customers.csv        # Generated synthetic data
+│   └── processed/
+│       └── customer_features.csv
+│
+├── scripts/
+│   ├── generate_synthetic_data.py
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── exploratory_analysis.py
+│   ├── customer_segmentation.py
+│   ├── churn_analysis.py
+│   └── revenue_expansion_analysis.py
+│
+├── notebooks/
+│   └── saas_customer_insights.ipynb
+│
+└── outputs/
+    ├── figures/
+    └── tables/
